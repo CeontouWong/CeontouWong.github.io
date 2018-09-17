@@ -20,7 +20,7 @@ comments: true
 'a46de8d6-177e-4644-a711-63d182fdbade'
 ```
 ## 定义一个简单的基于Twisted的协议
-我们只会在真正要用到Twisted的场合里谈及它。如果你想了解更多关于如何使用Twisted搭建服务端及构建通讯协议的知识，[Writing Servers in the Twisted documenation](https://twistedmatrix.com/documents/current/core/howto/servers.html)(Twisted服务端编写文档)是一个好去处。(译者注:迟些时候我将会翻译这篇文章)
+我们只会在真正要用到Twisted的场合里谈及它。如果你想了解更多关于如何使用Twisted搭建服务端及构建通讯协议的知识，[Writing Servers in the Twisted documenation](https://twistedmatrix.com/documents/current/core/howto/servers.html)(Twisted服务端编写文档)是一个好去处。(译者注:如果被允许的话，迟些时候我将会翻译这篇文章)
 类```Factory```的实例是会要持续的存在于连接当中的，所以它的实例是我们存储像成员列表和会话时需要的UUID这类信息的地方。在这里，一个新的```MyFactory```的实例将会在每次连接发生后被创建。
 ```python
 from twisted.internet.endpoints import TCP4ServerEndpoint
