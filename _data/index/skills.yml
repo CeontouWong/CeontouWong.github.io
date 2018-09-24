@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Mathematics, Literature, Programming #Motivation, GitHub, Java, HTML/CSS, Docker, Python
+percentage: 5, 5, 5 #100, 65, 70, 60, 60, 55
